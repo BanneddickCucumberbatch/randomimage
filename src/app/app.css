@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.faIcon {
+   font-size: 10rem;
+   transition: all 0.2s ease-in;
+}
+
+.button {
+    padding: 1rem;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    width: 10rem;
+    color: white;
+    font-size: 18px;
+    transition: opacity 0.1s ease-in-out;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+.button:active {
+    background-color: dimgray   ;
+}
